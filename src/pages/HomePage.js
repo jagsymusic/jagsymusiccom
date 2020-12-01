@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../components/Header";
 import Music from "../components/Music";
 
-const Home = () => {
+const HomePage = () => {
     return (
         <div>
             <Header/>
@@ -12,4 +12,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default HomePage;

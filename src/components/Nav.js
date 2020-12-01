@@ -5,6 +5,11 @@ const Nav = () => {
     return(
         <div className="nav-container container">
             <nav className="nav-wrapper">
+                <div className="hamburgers">
+                    <div className="line"/>
+                    <div className="line"/>
+                    <div className="line"/>
+                </div>
                 <img id="logo" src={logo} alt=""/>
                 <ul>
                     <li>About</li>
