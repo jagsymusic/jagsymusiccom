@@ -7,7 +7,14 @@
 }
 
 .songs {
-  display: flex;
-  justify-content: space-around;
-  padding: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding:0 5rem;
+}
+
+@media screen and (max-width: 768px){
+  .songs {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
 }
