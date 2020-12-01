@@ -1,0 +1,39 @@
+.nav-wrapper {
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  ul {
+    color: white;
+    display: flex;
+    list-style: none;
+  }
+  #logo {
+    cursor: pointer;
+    height: 3rem;
+  }
+  li {
+    padding-left: 6rem;
+    position: relative;
+    cursor: pointer;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .nav-wrapper {
+    ul {
+      display: none;
+    }
+    align-items: center;
+    justify-content: center;
+    #logo {
+      position: absolute;
+      height: 10rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
