@@ -1,6 +1,6 @@
 import React from "react";
 //img
-import header1 from "../img/social/header1.png";
+import header1 from "../img/header2.png";
 import facebook from "../img/social/facebook.svg"
 import soundcloud from "../img/social/soundcloud.svg"
 import spotify from "../img/social/spotify.svg"
