@@ -12,9 +12,9 @@ const Nav = () => {
                 </div>
                 <img id="logo" src={logo} alt=""/>
                 <ul>
-                    <li>About</li>
-                    <li>Gallery</li>
-                    <li>Contact</li>
+                    <li>ABOUT</li>
+                    <li>GALLERY</li>
+                    <li>CONTACT</li>
                 </ul>
             </nav>
         </div>
