@@ -4,13 +4,16 @@
   justify-content: center;
   text-align: center;
   padding-top: 4rem;
+  font-family: "Zilla Slab", serif;
+  font-weight: bold;
 }
 
 .songs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding:0 5rem;
+  padding:0 0rem;
 }
+
 
 @media screen and (max-width: 768px){
   .songs {
