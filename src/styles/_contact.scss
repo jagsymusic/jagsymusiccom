@@ -1,0 +1,36 @@
+.contact-title {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    padding: 5rem 0rem;
+    // font-family: "Zilla Slab", serif;
+    // font-weight: bold;
+}
+
+.contact-wrapper {
+    background: #1b1b1b;
+}
+
+.contact-socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 5rem;
+}
+
+.contacts {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h1 {
+        color: #23d997;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,17 @@
+.image-container {
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    padding: 0.3rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        width: 20rem;
+        img {
+            text-align: center;
+        }
+    }
+}
