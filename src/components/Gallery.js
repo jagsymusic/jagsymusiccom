@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from 'react'
+
+import myGallery from "../dataPictures";
 
 const Gallery = () => {
-    return(
+    const [pics, setPics] = useState(myGallery);
+
+    return (
         <div>
-            Gallery
+            {pics.map((img) => (
+                <img src={img.img} alt={img.name}/>
+            ))}
         </div>
     )
 }
 
-export default Gallery;
+export default Gallery
