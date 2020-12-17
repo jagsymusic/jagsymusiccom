@@ -1,7 +1,7 @@
 .gallery-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 0rem;
+    padding: 0rem 0rem 5rem 0rem;
     overflow: hidden;
 }
 
@@ -20,6 +20,7 @@
 }
 
 .follow-me-ig {
+    cursor: pointer;
     background-color: rgba($color: #ffffff, $alpha: 0.02);
     padding: 0.2rem;
     width: 43%;
