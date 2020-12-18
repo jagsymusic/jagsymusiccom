@@ -33,4 +33,20 @@
         color: #23d997;
         text-transform: uppercase;
     }
+    div {
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-title {
+        font-size: 3rem;
+    }
+
+    .contact-socials {
+        width: 100%;
+        img {
+            width: 2rem;
+        }
+    }
 }
