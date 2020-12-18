@@ -1,0 +1,30 @@
+.footer-wrapper {
+    background-color: #121212;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    img {
+        width: 1.5rem;
+    }
+    div {
+        padding: 1rem;
+    }
+}
