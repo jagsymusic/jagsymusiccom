@@ -22,9 +22,19 @@
     justify-content: space-between;
     text-align: right;
     img {
-        width: 1.5rem;
+        width: 1.3rem;
     }
     div {
         padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 0;
+        flex-direction: column;
+        .footer-copyright {
+            padding: 2rem;
+        }
     }
 }
