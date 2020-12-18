@@ -18,7 +18,7 @@ const Contact = () => {
                     </div>
                 </div>
                 
-                <Socials pos="contact-socials"/>
+                {/*<Socials pos="contact-socials"/>*/}
             </div>
         </div>
     )
