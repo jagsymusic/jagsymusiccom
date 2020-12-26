@@ -19,6 +19,10 @@
     padding-left: 6rem;
     position: relative;
     cursor: pointer;
+    a {
+      color: white;
+      text-decoration: none;
+    }
   }
   .hamburgers {
     display: none;

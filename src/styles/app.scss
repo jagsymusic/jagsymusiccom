@@ -1,33 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1,
 h2,
 h3 {
-    color: rgb(54, 54, 54);
+  color: rgb(54, 54, 54);
 }
 
 body {
-    font-family: "Rajdhani", sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 h3,
 h4 {
-    font-weight: 400;
-    color: gray;
+  font-weight: 400;
+  color: gray;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .App {
-    transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 30px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 @import "nav";
