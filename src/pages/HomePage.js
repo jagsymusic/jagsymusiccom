@@ -6,18 +6,20 @@ import Music from "../components/Music";
 import Player from "../components/Player";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Nav from "../components/Nav";
 
 const HomePage = () => {
-    return (
-        <div>
-            <Header/>
-            <Music/>
-            <Gallery />
-            <Player/>
-            <Contact />
-            <Footer />
-        </div>
-    )
-}
+  return (
+    <div>
+      <Nav />
+      <Header />
+      <Music />
+      <Gallery />
+      <Player />
+      <Contact />
+      <Footer />
+    </div>
+  );
+};
 
 export default HomePage;
