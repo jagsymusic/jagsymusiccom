@@ -1,11 +1,14 @@
 import React from "react";
-
+import {motion} from "framer-motion";
+import {fadeIn} from "../animation";
 
 const Song = ({song}) => {
     return (
-        <div className="song-wrapper">
+        <motion.div className="song-wrapper"
+        initial={fadeIn.hidden}
+        animate={fadeIn.show}>
             <a href={song.url}><img src={song.cover} alt="song.title"/></a>
-        </div>
+        </motion.div>
     )
 }
 

@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import {motion} from "framer-motion";
 //data
 import myTracks from "../data";
 //components
