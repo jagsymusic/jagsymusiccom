@@ -1,11 +1,16 @@
 import React from 'react'
-
+import {motion} from "framer-motion";
 import Socials from "./Socials";
+import {scrollAnim} from "../animation";
+import {useScroll} from "../utils/useScroll";
 
 const Contact = () => {
+    const [element, controls] = useScroll();
+
     return (
         <div className="contact-wrapper">
-            <div className="container">
+            <motion.div className="container"
+            ref={element} animate={controls} initial="hidden" variants={scrollAnim}>
                 <h1 className="contact-title">Contact me</h1>
                 <div className="contacts">
                     <div className="contact-general">
@@ -19,7 +24,7 @@ const Contact = () => {
                 </div>
                 
                 {/*<Socials pos="contact-socials"/>*/}
-            </div>
+            </motion.div>
         </div>
     )
 }
