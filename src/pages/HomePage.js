@@ -13,7 +13,6 @@ const HomePage = () => {
             <Header/>
             <Music/>
             <Gallery />
-            <Player/>
             <Contact />
             <Footer />
         </div>

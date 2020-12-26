@@ -14,12 +14,14 @@ const Gallery = () => {
                 <h1 className="gallery-title">Gallery</h1>
                 <div className="gallery-container">
                     {pics.map((img) => (
-                        <Picture img={img.img} name={img.name} key={img.id}></Picture>
+                        <Picture img={img.img} name={img.name} key={img.id}/>
                     ))}
                 </div>
-                <div className="follow-me-ig">
-                    <img src={instagram} />
-                    <p>Follow me @jagsymusic for more</p>
+                <div className="follow-wrapper">
+                    <div className="follow-me-ig">
+                        <img src={instagram}  alt="instagram"/>
+                        <p>Follow me @jagsymusic for more</p>
+                    </div>
                 </div>
             </div>
         </div>
