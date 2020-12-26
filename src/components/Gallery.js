@@ -3,14 +3,13 @@ import React, { useState } from 'react'
 import myGallery from "../dataPictures";
 import Picture from "./Picture";
 import instagram from "../img/social/instagram.svg"
-import galleryBg from "../img/gallerybg3.svg";
 
 
 const Gallery = () => {
     const [pics, setPics] = useState(myGallery);
 
     return (
-        <div className="gallery-wrapper" style={{backgroundImage: `url(${galleryBg})`}}>
+        <div className="gallery-wrapper">
             <div className="gallery container">
                 <h1 className="gallery-title">Gallery</h1>
                 <div className="gallery-container">
