@@ -9,7 +9,7 @@ const Contact = () => {
     const [element, controls] = useScroll();
 
     return (
-        <div className="contact-wrapper">
+        <div className="contact-wrapper" id="contact">
             <motion.div className="container"
             ref={element} animate={controls} initial="hidden" variants={scrollAnim}>
                 <h1 className="contact-title">Contact me</h1>

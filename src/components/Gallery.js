@@ -7,13 +7,12 @@ import {useScroll} from "../utils/useScroll";
 import {scrollAnim} from "../animation";
 import {motion} from "framer-motion";
 
-
 const Gallery = () => {
     const [pics, setPics] = useState(myGallery);
     const [element, controls] = useScroll();
 
     return (
-        <div className="gallery-wrapper">
+        <div className="gallery-wrapper" id="gallery">
             <motion.div className="gallery container"
             ref={element} animate={controls} initial="hidden" variants={scrollAnim}>
                 <h1 className="gallery-title">Gallery</h1>

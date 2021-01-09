@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from "../img/logo-2-white.png";
+import {Link} from "react-scroll"
 
 const Nav = () => {
   const [navBackground, setNavBackground] = useState(false);
@@ -27,13 +28,13 @@ const Nav = () => {
         <img id="logo" src={logo} alt="" />
         <ul>
           <li>
-            <a href="#music">MUSIC</a>
+            <Link to="music" smooth={true} duration={1000}>MUSIC</Link>
           </li>
           <li>
-            <a href="#gallery">GALLERY</a>
+            <Link to="gallery" smooth={true} duration={1000}>GALLERY</Link>
           </li>
           <li>
-            <a href="#contact">CONTACT</a>
+            <Link to="contact" smooth={true} duration={1000}>CONTACT</Link>
           </li>
         </ul>
       </nav>

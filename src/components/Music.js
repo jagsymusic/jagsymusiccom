@@ -11,7 +11,7 @@ const Music = () => {
 
     return(
         <div className="music-wrapper">
-            <motion.div className="music-container container"
+            <motion.div className="music-container container" id="music"
             ref={element} animate={controls} initial="hidden" variants={scrollAnim}>
                 <p className="music-title">CHECK OUT MY MUSIC</p>
                 <div className="songs">
