@@ -7,8 +7,6 @@ import {scrollAnim} from "../animation";
 
 const Music = () => {
     const [songs, setSongs] = useState(myTracks());
-
-    const [songs, setSongs] = useState(myTracks());
     const [element, controls] = useScroll();
 
     return(
@@ -21,8 +19,6 @@ const Music = () => {
                 </div>
             </motion.div>
         </div>
-      </div>
-    </div>
   );
 };
 

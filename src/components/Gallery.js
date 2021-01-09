@@ -23,15 +23,15 @@ const Gallery = () => {
                     ))}
                 </div>
                 <div className="follow-wrapper">
-                    <div className="follow-me-ig">
-                        <img src={instagram}  alt="instagram"/>
-                        <p>Follow me @jagsymusic for more</p>
-                    </div>
+                    <a href="http://instagram.com/jagsymusic">
+                        <div className="follow-me-ig">
+                            <img src={instagram}  alt="instagram"/>
+                            <p>Follow me @jagsymusic for more</p>
+                        </div>
+                    </a>
                 </div>
             </motion.div>
         </div>
-      </div>
-    </div>
   );
 };
 

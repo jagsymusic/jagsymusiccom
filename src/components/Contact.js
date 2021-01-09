@@ -27,10 +27,6 @@ const Contact = () => {
                 {/*<Socials pos="contact-socials"/>*/}
             </motion.div>
         </div>
-
-        {/*<Socials pos="contact-socials"/>*/}
-      </div>
-    </div>
   );
 };
 

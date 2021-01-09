@@ -20,6 +20,9 @@
 
 .follow-wrapper {
     padding-bottom: 3rem;
+    a {
+        text-decoration: none;
+    }
 }
 
 .follow-me-ig {
@@ -37,6 +40,7 @@
         text-transform: uppercase;
         font-size: 1.5rem;
     }
+
 }
 
 @media screen and (max-width: 1060px) {
