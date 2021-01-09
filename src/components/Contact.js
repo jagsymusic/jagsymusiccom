@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from "framer-motion";
+
 import Socials from "./Socials";
 import {scrollAnim} from "../animation";
 import {useScroll} from "../utils/useScroll";
@@ -26,7 +27,11 @@ const Contact = () => {
                 {/*<Socials pos="contact-socials"/>*/}
             </motion.div>
         </div>
-    )
-}
 
-export default Contact
+        {/*<Socials pos="contact-socials"/>*/}
+      </div>
+    </div>
+  );
+};
+
+export default Contact;

@@ -6,6 +6,7 @@ import {useScroll} from "../utils/useScroll";
 import {scrollAnim} from "../animation";
 
 const Music = () => {
+    const [songs, setSongs] = useState(myTracks());
 
     const [songs, setSongs] = useState(myTracks());
     const [element, controls] = useScroll();
@@ -20,7 +21,9 @@ const Music = () => {
                 </div>
             </motion.div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
 export default Music;

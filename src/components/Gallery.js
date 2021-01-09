@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 import myGallery from "../dataPictures";
 import Picture from "./Picture";
@@ -30,7 +30,9 @@ const Gallery = () => {
                 </div>
             </motion.div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Gallery
+export default Gallery;
