@@ -4,7 +4,7 @@ import {motion} from "framer-motion";
 
 const Song = ({song}) => {
     return (
-        <motion.div className="song-wrapper">
+        <motion.div className="song-wrapper" whileHover={{scale: 1.02, transition: {duration: 0.3 }}}>
             <a href={song.url}><img src={song.cover} alt="song.title"/></a>
         </motion.div>
     )
