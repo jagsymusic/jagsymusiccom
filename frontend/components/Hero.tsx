@@ -4,7 +4,7 @@ import styles from "../styles/Hero.module.css";
 const Hero = () => {
   return (
     <div>
-      <div className="bg-orange-200">
+      <div className="bg-slate-300">
         <div className="px-4 py-20">
           <div className="relative w-full  text-center">
             {/* <h1 className="font-bold text-gray-700 text-xl sm:text-2xl md:text-5xl leading-tight mb-6">
@@ -28,13 +28,13 @@ const Hero = () => {
             <img
               src="/header1.png"
               alt=""
-              className={`shadow-lg rounded shadow-orange-600/40 ${styles.picture}`}
+              className={`shadow-lg rounded shadow-slate-600/40 ${styles.picture}`}
             />
           </div>
         </div>
 
         <svg
-          className="fill-current bg-orange-200 text-white hidden md:block"
+          className="fill-current bg-slate-300 text-white hidden md:block"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
         >
