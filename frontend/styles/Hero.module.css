@@ -1,0 +1,37 @@
+.picture {
+  height: 34em;
+}
+
+.picDiv {
+  top: 10em;
+  position: absolute;
+}
+
+.picContainer {
+  position: relative;
+}
+
+@media screen and (max-width: 1224px) {
+  .picture {
+    height: 28em;
+  }
+
+  .picDiv {
+    top: 5em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .picture {
+    height: 24em;
+  }
+  .picDiv {
+    top: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .picContainer {
+    display: none;
+  }
+}
